@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+  <?php
+  function multip($a , $b)
+{
+  $c=$a*$b;
+  return($c);
+}
+echo"<table>";
+for($i=1;$i<11;$i++){
+  echo"<tr>";
+  for($j=1;$j<11;$j++){
+    echo"<td>";
+    $c=$i*$j;
+    echo"$c";
+    echo"</td>";
+  }
+  echo"</tr>";
+}
+echo"</table>";
+?>
